@@ -57,7 +57,7 @@ You can set data(object) in this file, and each data correspond into its file **
 ### gulpHbsRouter.registerHelper(name, helperFn)
 Register a handlebars [helper](http://handlebarsjs.com/#helpers).
 
-## Example ##    {#example}
+## Example
 
 ### `gulpfile.js`
 ```javascript
