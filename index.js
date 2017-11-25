@@ -1,3 +1,4 @@
+const path = require('path');
 const fs = require('fs');
 const hbs = require('handlebars');
 const through = require('through2');
@@ -10,7 +11,7 @@ const pluginError = msg => new gutil.PluginError(PLUGIN_NAME, msg);
 
 const gulpHbsRouter = (opts = {}) => {
   // Handle configuration options
-  const CWD_PAH = `${__dirname}/`;
+  const CWD_PAH = '../../';
   const DEFAULT_ROUTER_PATH = 'hbsRouter.js';
   const DEFAULT_PARTIAL_PATH = 'partial.js';
 

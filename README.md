@@ -22,7 +22,6 @@ gulp.src('./layout/**/*.hbs')
 	    routerPath: 'hbsRouter.js',
 	    partialPath: 'partial.js',
 	    minify: true,
-	    compile: {},
     }))
     .pipe(gulp.dest('./'))
 ```
@@ -39,7 +38,7 @@ You can set data(object) in this file, and each data correspond into its file **
 
 ## API
 ### gulpHbsRouter([, options])
-- **cwdPath** (default `${__dirname}/`)
+- **cwdPath** (default `../../`)
 <br>In gulp-hbs-router, we should get data from `'hbsRouter.js'` and partial from `'partial.js'` , so we need to set the `cwdPath`
 
 - **routerPath** (default `'hbsRouter.js'`)
