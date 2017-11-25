@@ -1,6 +1,6 @@
 {
-  "name": "c",
-  "version": "0.0.1",
+  "name": "gulp-hbs-router",
+  "version": "0.0.2",
   "description": "Gulp plugin that runs a router file, converting them to HTML",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "router",
     "gulpplugin"
   ],
-  "author": "TseHang <a54383813@gmail.com>",
+  "author": "TseHang",
   "license": "MIT",
   "devDependencies": {
     "eslint-config-airbnb-base": "^12.1.0",
