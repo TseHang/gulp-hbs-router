@@ -1,6 +1,6 @@
 {
   "name": "gulp-hbs-router",
-  "version": "0.0.2",
+  "version": "1.0.3",
   "description": "Gulp plugin that runs a router file, converting them to HTML",
   "main": "index.js",
   "scripts": {

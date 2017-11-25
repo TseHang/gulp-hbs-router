@@ -69,6 +69,7 @@ gulp.task('hbs', () => {
     .pipe(gulpPlumber())
     .pipe(gulpPlumber())
     .pipe(gulpHbsRouter({
+	  cwdPath: `${__dirname}/`,
       minify: true,
     }))
     .pipe(gulp.dest('./'));
