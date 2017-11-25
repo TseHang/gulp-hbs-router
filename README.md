@@ -7,7 +7,7 @@ npm install gulp-hbs --save-dev
 ```
 
 ### Usage
-```javascript=
+```javascript
 const gulpHbsRouter = require('gulp-hbs-router);
 
 gulp.src('./layout/**/*.hbs')
@@ -24,38 +24,32 @@ gulp.src('./layout/**/*.hbs')
 #### You have to reate `./hbsRouter.js` `./partial.js`
 - **hbsRouter.js** : Listing all Templata DATA here.
 You can set data(object) in this file, and each data correspond into its file **independently**.
-`Default: './hbsRouter.js'.`
+<br>`Default: './hbsRouter.js'.`
 
 - **partial.js** : You should write your partial  here. Then, router will catch partial by this file in handlebars.
-`Default: './partial.js'.`
+<br>`Default: './partial.js'.`
 
-## options
+## API
+### gulpHbsRouter([, options])
 - **cwdPath** (default `'../'`)
-
-In gulp-hbs-router, we should get data from `'hbsRouter.js'` and partial from `'partial.js'` , so we need to set the `cwdPath`
+<br>In gulp-hbs-router, we should get data from `'hbsRouter.js'` and partial from `'partial.js'` , so we need to set the `cwdPath`
 
 - **routerPath** (default `'hbsRouter.js'`)
-
-set router's path.
+<br>set router's path.
 
 - **partialPath** (default `'partial.js'`)
-
-set partial's path.
+<br>set partial's path.
 
 - **minify** (default `false`)
-
-set to minify html.
+<br>set to minify html.
 
 - **compile** (default to `handlebars.compile`)
+<br>compile options. See [handlebars reference](http://handlebarsjs.com/reference.html#base-compile) for possible values
 
-compile options. See [handlebars reference](http://handlebarsjs.com/reference.html#base-compile) for possible values
-
-- **halpers** (default to `handle`)
-
-javascript functions to stand in for helpers used in the handlebars files.
+### gulpHbsRouter.registerHelper(name, helperFn)
+Register a handlebars [helper](http://handlebarsjs.com/#helpers).
 
 ## Example
-
 
 
 ## License
