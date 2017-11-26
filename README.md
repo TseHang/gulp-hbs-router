@@ -1,4 +1,5 @@
 # gulp-hbs-router
+[![NPM version][npm-image]][npm-url]
 > Gulp plugin that runs like a router, converting templat language into HTML.
 
 ##### Why you need?
@@ -135,7 +136,7 @@ function getPartials(filename, path) {
 </footer>
 ```
 
-### Adding Structure
+### You have to add in STRUCTURE
 ```
 ...
 
@@ -157,7 +158,8 @@ function getPartials(filename, path) {
 
 [MIT](https://opensource.org/licenses/MIT) © [TsaHang](https://github.com/TseHang)
 
-
+[npm-image]: https://badge.fury.io/js/gulp-hbs-router.svg
+[npm-url]: https://www.npmjs.com/package/gulp-hbs-router
 
 
 

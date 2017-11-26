@@ -1,7 +1,8 @@
 {
   "name": "gulp-hbs-router",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Gulp plugin that runs a router file, converting them to HTML",
+  "repository": "https://github.com/TseHang/gulp-hbs-router",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
