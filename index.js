@@ -78,7 +78,7 @@ const gulpHbsRouter = (opts = {}) => {
   function getTemplateName(file) {
     const fileName = file.relative; // index.hbs
     const extName = path.extname(file.path); // .hbs
-    if(!isHandlebars(extName)) throw pluginError('You input a FAULT source !!!\n    Checking your gulp.src(...)');
+    if (!isHandlebars(extName)) throw pluginError('You input a FAULT source !!!\n    Checking your gulp.src(...)');
     return fileName.slice(0, (-extName.length)); // index
   }
 

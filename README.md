@@ -1,6 +1,6 @@
 # gulp-hbs-router
 [![NPM version][npm-image]][npm-url]
-> Gulp plugin that runs like a router, converting templat language into HTML.
+> Gulp plugin that runs like a router, converting template language into HTML.
 
 ##### Why you need?
 - When you don't want to use some frontend framwork like react, vue, angular...
@@ -10,7 +10,7 @@ cuz your website actually isn't need it...
 
 ### Install
 ```
-npm install gulp-hbs --save-dev
+npm install gulp-hbs-router --save-dev
 ```
 
 ### Usage
